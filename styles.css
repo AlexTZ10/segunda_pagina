@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #aecce0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+#services ul {
+    text-align: center; /* Alinea el texto a la izquierda */
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+#services ul li {
+    margin-left: -30px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+
+
+/* Estilos para el formulario */
+.form-header {
+    text-align: center;
+}
+
+.formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3498db;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-row textarea {
+    min-height: 150px;
+}
+
+.form-row button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #2980b9;
+}
+
+.alertas {
+    color: red;
+    text-align: center;
+}
+
+
+/* Estilos para el logotipo */
+.logo {
+    position: absolute;
+    top: 40px; /* Ajusta la distancia desde la parte superior */
+    right: 30px; /* Ajusta la distancia desde la derecha */
+    max-width: 80px;
+}
+
+/* Estilos para las imágenes del portafolio */
+.profile-img {
+    max-width: 20%;
+    height: auto;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query para ajustar las imágenes cuando el ancho de la pantalla sea menor a 750px */
+@media (max-width: 750px) {
+    .project img {
+        max-width: 80%; /* Cambia el tamaño máximo de las imágenes cuando el ancho de la pantalla es menor a 750px */
+    }
+
+    .profile-img {
+        max-width: 80%; /* Cambia el tamaño máximo de la imagen de perfil cuando el ancho de la pantalla es menor a 750px */
+    }
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alex Alonso Toledo Zavala</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <img class="logo" src="img/logo_a.png" alt="Logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Sobre mí</h2>
+                <img class="profile-img" src="https://st4.depositphotos.com/21557188/23288/v/450/depositphotos_232888458-stock-illustration-profile-person-circle-rainbow-color.jpg" alt="Tu Nombre">
+                <p>Soy un creativo con una pasión por la tecnología y el diseño...</p>
+            </div>
+        </section>
+        
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Mis Servicios</h2>
+                <ul class="services-list">
+                    <li>Diseño Web</li>
+                    <li>Desarrollo Frontend</li>
+                    <li>Diseño Gráfico</li>
+                    <li>Optimización SEO</li>
+                    <li>Consultoría Personalizada</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portafolio</h2>
+                <div class="project">
+                    <h3>Nombre del Proyecto 1</h3>
+                    <p>Breve descripción o captura de pantalla.</p>
+                    <img src="https://img.freepik.com/vector-premium/vision-artificial-o-icono-vector-reconocimiento-visual_116137-1981.jpg" alt="Proyecto 1">
+                </div>
+                <div class="project">
+                    <h3>Nombre del Proyecto 2</h3>
+                    <p>Breve descripción o captura de pantalla.</p>
+                    <img src="https://img.freepik.com/vector-premium/concepto-inteligencia-artificial-ilustracion-inteligencia-artificial-ai-utilizacion-lineas_8169-534.jpg" alt="Proyecto 2">
+                </div>
+                <div class="project">
+                    <h3>Nombre del Proyecto 3</h3>
+                    <p>Breve descripción o captura de pantalla.</p>
+                    <img src="https://img.freepik.com/vector-gratis/plantilla-logotipo-datos-dibujados-mano_23-2149203374.jpg" alt="Proyecto 3">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="form-header">
+                    <h2>Contacto</h2>
+                    <p><em>¡Esperamos tu consulta!</em></p>
+                </div>
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="abc@gmail.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" id="submit">Enviar</button>
+                    </div>
+                    <p class="alertas" id="alertas"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alex. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
